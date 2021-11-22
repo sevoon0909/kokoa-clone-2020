@@ -11,6 +11,7 @@
 @import "components/badge.css";
 @import "components/point.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screen/login.css";
@@ -23,7 +24,6 @@
 body{
     color: #2e363e;
     font-family: 'Open Sans', sans-serif;
-    height: 300vh;
 }
 
 .main-screen{

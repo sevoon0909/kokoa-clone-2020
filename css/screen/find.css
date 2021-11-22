@@ -83,3 +83,26 @@
     right: 10px;
     font-size: 12px;
 }
+.open-post__heart-count span{
+    margin-left: 3px;
+}
+
+@keyframes heartBeat {
+    0%{
+        color: white;
+        transform: none;
+    }
+    15%{
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+    
+}
+.open-post__heart-count:hover i{
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
